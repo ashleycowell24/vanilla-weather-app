@@ -1,60 +1,47 @@
-h1,
-h2,
-h3,
-h4,
-p {
-  font-family: "Quicksand", sans-serif;
+body {
+  font-family: arial, sans-serif;
 }
 
 h1 {
-  padding-top: 20px;
-  font-weight: bold;
-  font-size: 36px;
+    color: purple;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 28px;
+    margin-bottom: 0;
 }
 
-h3,
-h4 {
-  font-size: 18px;
-  font-weight: 600;
+ul {
+    margin: 0;
+    padding: 0;
 }
 
-h3 {
-  padding-bottom: 50px;
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
 }
 
-h2 {
-  font-size: 28px;
+.weather-app-wrapper {
+    max-width: 650px;
+    margin: 50px auto;
 }
 
-p {
-  font-size: 16px;
+.weather-app {
+    padding: 20px;
+    border: 1px solid #808080;
+    border-radius: 10px;
 }
 
-i {
-  font-size: 50px;
-  padding-top: 30px;
-  color: rgba(255, 174, 0, 0.842);
+.temperature {
+    color: #000000;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 400;
 }
 
-.card-body i {
-  padding-bottom: 20px;
-}
-
-.container {
-  margin: 50px;
-  padding: 50px 0px;
-  border: solid 1px #000000;
-}
-
-.btn-purple {
-  color: white;
-  background: blueviolet;
-}
-
-.btn {
-  font-family: "Quicksand", sans-serif;
-}
-
-.quick-sand {
-  font-family: "Quicksand", sans-serif;
+.unit {
+    position: relative;
+    font-size: 14px;
+    top: -26px;
 }
